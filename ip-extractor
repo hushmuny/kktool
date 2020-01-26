@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+ifconfig > ~/ip/ip.txt
+grep "inet " -i ~/ip/ip.txt
