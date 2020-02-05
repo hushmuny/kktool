@@ -13,9 +13,6 @@ while [ true ]; do
     if [[ $kk =~ ^.*youtu.*$ ]]; then
         youtube-dl $kk
 
-    else 
-    	echo "url is not matching"
-       
 
     fi
 
