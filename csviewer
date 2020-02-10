@@ -1,5 +1,5 @@
 #!/bin/bash
-# it is one line command which can be ise for viewing csv file.
+# it is one line command which can be use for viewing csv file.
 #for viewing file just copy this command and paste it on terminal and replace $1 with your file path
 # or ./csviewer file.csv
 column -s, -t < $1 | less -#2 -N -S
