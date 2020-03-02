@@ -1,0 +1,11 @@
+#!/bin/bash
+# this tool can help you if you have not manpages of  any linux packages,
+# it searches online and give same experiance like man.
+# its mainly depends on curl and html2text ,make sure your distros have both,
+# for viewing the manpages just copy this script into /bin folder and
+# manon {package name}
+# if any error occur it means either manpage not found or due to typo
+
+
+kk="http://man.he.net/?topic=$1&section=all"
+curl "$kk" | html2text
