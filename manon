@@ -8,4 +8,4 @@
 
 
 kk="http://man.he.net/?topic=$1&section=all"
-curl "$kk" | html2text
+curl -s "$kk" | html2text
